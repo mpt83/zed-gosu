@@ -6,7 +6,7 @@ Includes:
 
 - Tree-sitter syntax highlighting
 - A Rust-backed `gosu-lsp`
-- Whitespace-only document formatting
+- Brace-aware document formatting
 
 ## Local Install
 
@@ -36,6 +36,7 @@ cargo install --path .
 
 Formatting currently:
 
+- indents nested brace blocks
 - trims trailing spaces and tabs
 - removes extra blank lines at EOF
 - ensures one final newline
