@@ -1,0 +1,4 @@
+target/
+dist/
+tree-sitter-gosu/
+gosu-lsp/target/

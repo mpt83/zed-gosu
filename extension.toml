@@ -1,0 +1,15 @@
+id = "gosu"
+name = "Gosu"
+version = "0.0.1"
+schema_version = 1
+authors = ["MPT"]
+description = "Gosu language support for Zed"
+repository = "https://github.com/mpt83/zed-gosu"
+
+[language_servers.gosu-lsp]
+name = "Gosu LSP"
+languages = ["Gosu"]
+
+[grammars.gosu]
+repository = "https://github.com/mpt83/tree-sitter-gosu"
+rev = "09266fcd4b9411826cb35edd2b4bdadcbd753fcd"
