@@ -1,4 +1,15 @@
+# Rust build output
 target/
-dist/
-tree-sitter-gosu/
 gosu-lsp/target/
+
+# Rust local/editor artifacts
+**/*.rs.bk
+*.pdb
+
+# Zed extension build output
+extension.wasm
+grammars/
+dist/
+
+# Local grammar checkout
+tree-sitter-gosu/
