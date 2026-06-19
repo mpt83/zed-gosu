@@ -1,6 +1,6 @@
 id = "gosu"
 name = "Gosu"
-version = "0.0.2"
+version = "0.0.3"
 schema_version = 1
 authors = ["MPT"]
 description = "Gosu language support for Zed"

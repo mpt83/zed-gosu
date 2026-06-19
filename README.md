@@ -37,6 +37,8 @@ cargo install --path .
 Formatting currently:
 
 - indents nested brace blocks
+- normalizes Gosu type colon spacing
+- collapses repeated blank lines
 - trims trailing spaces and tabs
 - removes extra blank lines at EOF
 - ensures one final newline
