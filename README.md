@@ -28,6 +28,7 @@ cargo install --path .
 {
   "languages": {
     "Gosu": {
+      "formatter": "language_server",
       "format_on_save": "on"
     }
   }
